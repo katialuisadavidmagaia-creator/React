@@ -1,0 +1,59 @@
+
+*{
+ margin: 0;
+ padding: 30px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ box-sizing: border-box;
+text-shadow: rgba(255,255,255,0.2) 1px 1px;
+}
+
+App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./assets/IMG-20260509-WA0001.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    padding: 50px 20pxs;
+
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#root{
+    min-height: 100vh;
+}
+
+h1{
+    text-shadow: 2px 2px 8px rgba(56, 48, 48, 0.8);
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+ color: dimgray;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color:#f0e6d3;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: transparent !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rga(0,0,0,0.4);
+}
+
+button:active{
+    transform: translateY(0px) scale(0.97);
+}
+ 
